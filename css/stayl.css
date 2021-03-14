@@ -1,24 +1,30 @@
 body {
     font-family: 'Montserrat', sans-serif;
     /* background-color: #efe6e4; */
+    background: #efe6e4 url(../images/fon-heder.png) no-repeat top center;
+
 }
+
 header {
-    background-image: url(../images/fon-heder.png);
-    background: size 100%;
-    background-repeat: no-repeat;
-   width: 1400px;
-   margin: 0 auto;
-   background-color: #efe6e4;
+
+    /* background: size 100%; */
+    /* background-repeat: no-repeat; */
+    /* width: 1400px; */
+    margin: 0 auto;
+    /* background-color: #efe6e4; */
+
 }
+
 main {
-    width: 1400px;
+    /* width: 1400px; */
     margin: 0 auto;
     background-color: #efe6e4;
 }
+
 footer {
-    width: 1400px;
-    margin: 0 auto; 
-    background-color: #efe6e4; 
+    /* width: 1400px; */
+    margin: 0 auto;
+    background-color: #efe6e4;
 }
 
 .wrapper {
@@ -43,14 +49,15 @@ h1::before {
     top: -0.2em;
     right: 4em;
 }
+
 h2 {
     font-style: normal;
-font-weight: normal;
+    font-weight: normal;
     font-size: 40px;
-line-height: 50px;
-text-transform: uppercase;
-color: #533738;
-text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
 }
 
 nav {
@@ -118,16 +125,61 @@ nav>p>a {
     line-height: 30px;
 }
 
+/*  БЛОК О НАС */
+
 .about-img {
     display: block;
-    float: left;
+    flex-basis: 25%;
     margin-bottom: 20px;
 }
 
 
-.about>h2 {
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about_us>h2 {
+    text-align: center;
+    flex-basis: 100%;
+
+}
+
+.text_about {
+    flex-basis: 45%;
+}
+
+.experience {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.experience>li {
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.numeral {
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #fff;
     text-align: center;
 }
+
+
+
+
+
 
 
 .dark {
