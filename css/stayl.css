@@ -3,6 +3,7 @@ body {
     background: #efe6e4 url(../images/fon-heder.png) no-repeat top center;
 
 }
+
 a {
     color: #533738;
     text-decoration: none;
@@ -14,6 +15,11 @@ a:hover {
 
 a:focus {
     color: #99544f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -28,16 +34,51 @@ a:focus {
 
 /* Стили для heder */
 
-.page-header.wide-container {
+.page-header .wide-container {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
+    align-self: normal;
+    margin-top: 42px;
 }
-.page-header.wide-container>a {
+
+/* .page-header .wide-container>a {
     display: block;
-}
+} */
 .logo {
     display: flex;
+    align-items: flex-end;
+    align-self: normal;
+    margin-right: 83px;
+    font-size: 16px;
+    line-height: 20px;
 }
+
 .nav-list {
     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 42px;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phone {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Стили для промо блока */
+
+.promo {
+    padding-top: 150px;
+    padding-bottom: 166px;
+    /* background-color: #ded7cb;
+    background-image: url("../images/fon-heder.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
