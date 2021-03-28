@@ -1,230 +1,43 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    /* background-color: #efe6e4; */
     background: #efe6e4 url(../images/fon-heder.png) no-repeat top center;
 
 }
-
-header {
-
-    /* background: size 100%; */
-    /* background-repeat: no-repeat; */
-    /* width: 1400px; */
-    margin: 0 auto;
-    /* background-color: #efe6e4; */
-
-}
-
-main {
-    /* width: 1400px; */
-    margin: 0 auto;
-    background-color: #efe6e4;
-}
-
-footer {
-    /* width: 1400px; */
-    margin: 0 auto;
-    background-color: #efe6e4;
-}
-
-.wrapper {
-    max-width: 1170px;
-    border: 1px solid #000;
-    margin: 0 auto;
-}
-
-
-
-h1 {
-    font-size: 16px;
-    line-height: 20px;
+a {
     color: #533738;
-    position: relative;
-    margin-left: 1.5em;
+    text-decoration: none;
 }
 
-h1::before {
-    content: url(../images/logo.svg);
-    position: absolute;
-    top: -0.2em;
-    right: 4em;
+a:hover {
+    color: #cc8b86;
 }
 
-h2 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #533738;
-    text-align: center;
+a:focus {
+    color: #99544f;
 }
 
-nav {
+.container {
+    margin: 0 auto;
+    width: 1036px;
+}
+
+.wide-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* Стили для heder */
+
+.page-header.wide-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    align-items: baseline;
 }
-
-ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    flex-basis: 70%;
-}
-
-ul>li {
-    padding: 1%;
-}
-
-ul>li>a {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 20px;
-    color: #533738;
-}
-
-nav>p>a {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 20px;
-    color: #533738;
-}
-
-.header-application {
-    width: 45%;
-    margin-left: 85px;
-    margin-bottom: 170px;
-}
-
-.header-application>p {
-    width: 80%;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-
-.header-application>a {
-    text-decoration: none;
-    background-color: #CC8B86;
-    padding: 25px 65px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #533738;
-}
-
-.slogan {
-    font-size: 50px;
-    line-height: 62px;
-    color: #533738;
-}
-
-.text {
-    font-size: 18px;
-    line-height: 30px;
-}
-
-/*  БЛОК О НАС */
-
-.about-img {
+.page-header.wide-container>a {
     display: block;
-    flex-basis: 25%;
-    margin-bottom: 20px;
 }
-
-
-
-.about_us {
+.logo {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
 }
-
-.about_us>h2 {
-    text-align: center;
-    flex-basis: 100%;
-
-}
-
-.text_about {
-    flex-basis: 45%;
-}
-
-.experience {
-    flex-basis: 100%;
+.nav-list {
     display: flex;
-    justify-content: space-around
 }
-
-.experience>li {
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 37px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.numeral {
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 50px;
-    line-height: 62px;
-    color: #fff;
-    text-align: center;
-}
-
-
-
-
-
-
-
-.dark {
-    color: #533738;
-}
-
-.experience {
-    clear: both;
-    background: #8D7370;
-}
-
-.our-work {}
-
-.work1 {}
-
-.white {}
-
-.work2 {}
-
-.work3 {}
-
-.work4 {}
-
-.team {}
-
-.member-team {}
-
-.member1 {}
-
-.member2 {}
-
-.member3 {}
-
-.road-map {}
-
-.number {}
-
-.testimonials {}
-
-.flip-left {}
-
-.cite {}
-
-.images {}
-
-.flip-right {}
-
-.application {}
